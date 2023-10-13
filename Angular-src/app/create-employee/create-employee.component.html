@@ -1,0 +1,23 @@
+<section class="Create">
+    <img src="../../assets/employee-create.png" alt="">
+   
+    <form class="form-group" (ngSubmit) = "onSubmit()">
+        <h3> Create Employee </h3>
+            <label> First Name</label>
+            <input type="text" class ="box" id = "firstName"
+                [(ngModel)] = "employee.firstName" name = "firstName" >
+    
+
+            <label> Last Name</label>
+            <input type="text" class ="box" id = "lastName"
+                [(ngModel)] = "employee.lastName" name = "lastName">
+
+            <label> Email Id</label>
+            <input type="text" class ="box" id = "emailId"
+                [(ngModel)] = "employee.emailId" name = "emailId">
+    
+    
+        <button class = "btn " type ="submit">Submit</button>
+    
+    </form>
+</section> 

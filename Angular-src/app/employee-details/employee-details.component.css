@@ -1,0 +1,19 @@
+.view{
+    width: 40%;
+    margin: .7rem 0;
+    background: #dbd3d3;;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);;
+    font-size: 1rem;
+    color: black;
+    text-transform: none;
+   border: .1rem solid rgba(0,0,0,.1);
+   margin-left: 30%;
+   margin-top: 6rem;
+}
+
+.view .details{
+    font-family: sans-serif;
+
+}

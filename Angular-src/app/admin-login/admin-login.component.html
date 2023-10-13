@@ -1,0 +1,13 @@
+
+<section class="login" id="login">
+<img src="../../assets/emp-login.png" alt="">
+
+    <form (ngSubmit)="logindata()" class="login-form">
+        <h3>Admin Login</h3>
+        <input type="email" id="uid" name="uid" placeholder=" ID"  class="box" [(ngModel)]="admin.uid">
+    
+        <input type="password" id="upswd" name="upswd" placeholder="Password" class="box" [(ngModel)]="admin.upswd">
+        <input type="submit" name="name" id="go" value="login now" class="btn">
+    </form>
+    </section>
+    
